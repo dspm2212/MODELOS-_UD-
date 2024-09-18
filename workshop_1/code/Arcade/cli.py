@@ -1,10 +1,26 @@
+"""
+This module contains the simple cli for catologe Arcade Machine.
 
+Author: Daniel Santiago Perez Madera <dsperezm@udistrital.edu.co>
+
+This file is part of workshop_1.
+
+workshop_1 is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+workshop_1 is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with workshop_1. If not, see <https://www.gnu.org/licenses/>.
+"""
 from Arcade import ArcadeMachine
 from game import Game
 from purchase import Purchase
 from payment import FullPayment, FinancingPayment
 
 def main_menu():
+    """
+    Displays the main menu and manages user interaction for different options.
+    """
+    
     machines = []  
 
     while True:
