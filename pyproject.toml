@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "arcade-machine"
+version = "0.1.0"
+description = "This is the code for a catologe or store virtual for buy Arcade Machine"
+authors = ["Daniel Santiago Perez Madera <dsperezm@udistrital.edu.co>"]
+license = "GNU/GPL"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
